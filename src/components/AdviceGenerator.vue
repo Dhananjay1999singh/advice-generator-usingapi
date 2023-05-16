@@ -7,8 +7,6 @@
           Loading...
         </button>
       </div>
-      <div>
-      </div>
       <div v-if="advices.advice" class="main-text">
         <h3 class="text-main text-center  ">Advice of the day is:</h3>
       </div>
@@ -16,7 +14,7 @@
         <h2 id="textShow" class="text fw-bold ">{{ advices.advice }}</h2>
       </div>
       <div v-if="advices.advice">
-        <p id="idOfAdvice">Advice id : {{ advices.id }}</p>
+        <p id="idOfAdvice">Advice Id : {{ advices.id }}</p>
       </div>
       <button class="btn btn-danger" @click="generateAdvice()">Generate Advice</button>
     </div>
