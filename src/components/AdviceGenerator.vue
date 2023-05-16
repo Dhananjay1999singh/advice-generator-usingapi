@@ -40,7 +40,8 @@ export default {
             response.json()
               .then((data) => {
                 this.advices = data.slip
-
+                //Add testing Comment
+                //Add another testing Comment
               });
           }
         )
